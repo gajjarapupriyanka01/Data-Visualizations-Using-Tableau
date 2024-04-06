@@ -1,0 +1,981 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20241.24.0208.0337                               -->
+<workbook original-version='18.1' source-build='2024.1.0 (20241.24.0208.0337)' source-platform='win' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <_.fcp.AnimationOnByDefault.true...AnimationOnByDefault />
+    <_.fcp.MarkAnimation.true...MarkAnimation />
+    <_.fcp.ObjectModelEncapsulateLegacy.true...ObjectModelEncapsulateLegacy />
+    <_.fcp.ObjectModelTableType.true...ObjectModelTableType />
+    <_.fcp.SchemaViewerObjectModel.true...SchemaViewerObjectModel />
+    <SheetIdentifierTracking />
+    <WindowsPersistSimpleIdentifiers />
+  </document-format-change-manifest>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <_.fcp.AnimationOnByDefault.false...style>
+    <_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule element='animation'>
+      <_.fcp.AnimationOnByDefault.false...format attr='animation-on' value='ao-on' />
+    </_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule>
+  </_.fcp.AnimationOnByDefault.false...style>
+  <datasources>
+    <datasource caption='sustainable_development_report_ (sustainable_development_report_2023)' inline='true' name='federated.1rhooo716yi8j918ib5ol1sjw9nu' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='sustainable_development_report_2023' name='excel-direct.10ez5gb1iyshx81d34oxk0nfjpmc'>
+            <connection class='excel-direct' cleaning='no' compat='no' dataRefreshTime='' filename='C:/Users/Prasad/Downloads/sustainable_development_report_2023.xlsx' interpretationMode='0' password='' server='' validate='no' />
+          </named-connection>
+        </named-connections>
+        <_.fcp.ObjectModelEncapsulateLegacy.false...relation connection='excel-direct.10ez5gb1iyshx81d34oxk0nfjpmc' name='sustainable_development_report_' table='[sustainable_development_report_$]' type='table'>
+          <columns gridOrigin='A1:U167:no:A1:U167:0' header='yes' outcome='6'>
+            <column datatype='string' name='country_code' ordinal='0' />
+            <column datatype='string' name='country' ordinal='1' />
+            <column datatype='string' name='region' ordinal='2' />
+            <column datatype='real' name='overall_score' ordinal='3' />
+            <column datatype='real' name='goal_1_score' ordinal='4' />
+            <column datatype='real' name='goal_2_score' ordinal='5' />
+            <column datatype='real' name='goal_3_score' ordinal='6' />
+            <column datatype='real' name='goal_4_score' ordinal='7' />
+            <column datatype='real' name='goal_5_score' ordinal='8' />
+            <column datatype='real' name='goal_6_score' ordinal='9' />
+            <column datatype='real' name='goal_7_score' ordinal='10' />
+            <column datatype='real' name='goal_8_score' ordinal='11' />
+            <column datatype='real' name='goal_9_score' ordinal='12' />
+            <column datatype='real' name='goal_10_score' ordinal='13' />
+            <column datatype='real' name='goal_11_score' ordinal='14' />
+            <column datatype='real' name='goal_12_score' ordinal='15' />
+            <column datatype='real' name='goal_13_score' ordinal='16' />
+            <column datatype='real' name='goal_14_score' ordinal='17' />
+            <column datatype='real' name='goal_15_score' ordinal='18' />
+            <column datatype='real' name='goal_16_score' ordinal='19' />
+            <column datatype='real' name='goal_17_score' ordinal='20' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.false...relation>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...relation connection='excel-direct.10ez5gb1iyshx81d34oxk0nfjpmc' name='sustainable_development_report_' table='[sustainable_development_report_$]' type='table'>
+          <columns gridOrigin='A1:U167:no:A1:U167:0' header='yes' outcome='6'>
+            <column datatype='string' name='country_code' ordinal='0' />
+            <column datatype='string' name='country' ordinal='1' />
+            <column datatype='string' name='region' ordinal='2' />
+            <column datatype='real' name='overall_score' ordinal='3' />
+            <column datatype='real' name='goal_1_score' ordinal='4' />
+            <column datatype='real' name='goal_2_score' ordinal='5' />
+            <column datatype='real' name='goal_3_score' ordinal='6' />
+            <column datatype='real' name='goal_4_score' ordinal='7' />
+            <column datatype='real' name='goal_5_score' ordinal='8' />
+            <column datatype='real' name='goal_6_score' ordinal='9' />
+            <column datatype='real' name='goal_7_score' ordinal='10' />
+            <column datatype='real' name='goal_8_score' ordinal='11' />
+            <column datatype='real' name='goal_9_score' ordinal='12' />
+            <column datatype='real' name='goal_10_score' ordinal='13' />
+            <column datatype='real' name='goal_11_score' ordinal='14' />
+            <column datatype='real' name='goal_12_score' ordinal='15' />
+            <column datatype='real' name='goal_13_score' ordinal='16' />
+            <column datatype='real' name='goal_14_score' ordinal='17' />
+            <column datatype='real' name='goal_15_score' ordinal='18' />
+            <column datatype='real' name='goal_16_score' ordinal='19' />
+            <column datatype='real' name='goal_17_score' ordinal='20' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.true...relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[sustainable_development_report_]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='context'>0</attribute>
+              <attribute datatype='string' name='gridOrigin'>&quot;A1:U167:no:A1:U167:0&quot;</attribute>
+              <attribute datatype='boolean' name='header'>true</attribute>
+              <attribute datatype='integer' name='outcome'>6</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>country_code</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[country_code]</local-name>
+            <parent-name>[sustainable_development_report_]</parent-name>
+            <remote-alias>country_code</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RIN_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[sustainable!development!report!_3A325F7626AF4B7786E290487B122E74]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>country</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[country]</local-name>
+            <parent-name>[sustainable_development_report_]</parent-name>
+            <remote-alias>country</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RIN_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[sustainable!development!report!_3A325F7626AF4B7786E290487B122E74]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>region</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[region]</local-name>
+            <parent-name>[sustainable_development_report_]</parent-name>
+            <remote-alias>region</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RIN_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[sustainable!development!report!_3A325F7626AF4B7786E290487B122E74]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>overall_score</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[overall_score]</local-name>
+            <parent-name>[sustainable_development_report_]</parent-name>
+            <remote-alias>overall_score</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[sustainable!development!report!_3A325F7626AF4B7786E290487B122E74]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>goal_1_score</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[goal_1_score]</local-name>
+            <parent-name>[sustainable_development_report_]</parent-name>
+            <remote-alias>goal_1_score</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[sustainable!development!report!_3A325F7626AF4B7786E290487B122E74]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>goal_2_score</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[goal_2_score]</local-name>
+            <parent-name>[sustainable_development_report_]</parent-name>
+            <remote-alias>goal_2_score</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[sustainable!development!report!_3A325F7626AF4B7786E290487B122E74]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>goal_3_score</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[goal_3_score]</local-name>
+            <parent-name>[sustainable_development_report_]</parent-name>
+            <remote-alias>goal_3_score</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[sustainable!development!report!_3A325F7626AF4B7786E290487B122E74]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>goal_4_score</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[goal_4_score]</local-name>
+            <parent-name>[sustainable_development_report_]</parent-name>
+            <remote-alias>goal_4_score</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[sustainable!development!report!_3A325F7626AF4B7786E290487B122E74]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>goal_5_score</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[goal_5_score]</local-name>
+            <parent-name>[sustainable_development_report_]</parent-name>
+            <remote-alias>goal_5_score</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[sustainable!development!report!_3A325F7626AF4B7786E290487B122E74]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>goal_6_score</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[goal_6_score]</local-name>
+            <parent-name>[sustainable_development_report_]</parent-name>
+            <remote-alias>goal_6_score</remote-alias>
+            <ordinal>9</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[sustainable!development!report!_3A325F7626AF4B7786E290487B122E74]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>goal_7_score</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[goal_7_score]</local-name>
+            <parent-name>[sustainable_development_report_]</parent-name>
+            <remote-alias>goal_7_score</remote-alias>
+            <ordinal>10</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[sustainable!development!report!_3A325F7626AF4B7786E290487B122E74]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>goal_8_score</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[goal_8_score]</local-name>
+            <parent-name>[sustainable_development_report_]</parent-name>
+            <remote-alias>goal_8_score</remote-alias>
+            <ordinal>11</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[sustainable!development!report!_3A325F7626AF4B7786E290487B122E74]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>goal_9_score</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[goal_9_score]</local-name>
+            <parent-name>[sustainable_development_report_]</parent-name>
+            <remote-alias>goal_9_score</remote-alias>
+            <ordinal>12</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[sustainable!development!report!_3A325F7626AF4B7786E290487B122E74]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>goal_10_score</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[goal_10_score]</local-name>
+            <parent-name>[sustainable_development_report_]</parent-name>
+            <remote-alias>goal_10_score</remote-alias>
+            <ordinal>13</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[sustainable!development!report!_3A325F7626AF4B7786E290487B122E74]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>goal_11_score</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[goal_11_score]</local-name>
+            <parent-name>[sustainable_development_report_]</parent-name>
+            <remote-alias>goal_11_score</remote-alias>
+            <ordinal>14</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[sustainable!development!report!_3A325F7626AF4B7786E290487B122E74]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>goal_12_score</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[goal_12_score]</local-name>
+            <parent-name>[sustainable_development_report_]</parent-name>
+            <remote-alias>goal_12_score</remote-alias>
+            <ordinal>15</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[sustainable!development!report!_3A325F7626AF4B7786E290487B122E74]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>goal_13_score</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[goal_13_score]</local-name>
+            <parent-name>[sustainable_development_report_]</parent-name>
+            <remote-alias>goal_13_score</remote-alias>
+            <ordinal>16</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[sustainable!development!report!_3A325F7626AF4B7786E290487B122E74]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>goal_14_score</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[goal_14_score]</local-name>
+            <parent-name>[sustainable_development_report_]</parent-name>
+            <remote-alias>goal_14_score</remote-alias>
+            <ordinal>17</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[sustainable!development!report!_3A325F7626AF4B7786E290487B122E74]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>goal_15_score</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[goal_15_score]</local-name>
+            <parent-name>[sustainable_development_report_]</parent-name>
+            <remote-alias>goal_15_score</remote-alias>
+            <ordinal>18</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[sustainable!development!report!_3A325F7626AF4B7786E290487B122E74]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>goal_16_score</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[goal_16_score]</local-name>
+            <parent-name>[sustainable_development_report_]</parent-name>
+            <remote-alias>goal_16_score</remote-alias>
+            <ordinal>19</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[sustainable!development!report!_3A325F7626AF4B7786E290487B122E74]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>goal_17_score</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[goal_17_score]</local-name>
+            <parent-name>[sustainable_development_report_]</parent-name>
+            <remote-alias>goal_17_score</remote-alias>
+            <ordinal>20</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[sustainable!development!report!_3A325F7626AF4B7786E290487B122E74]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <_.fcp.ObjectModelTableType.true...column caption='sustainable_development_report_' datatype='table' name='[__tableau_internal_object_id__].[sustainable!development!report!_3A325F7626AF4B7786E290487B122E74]' role='measure' type='quantitative' />
+      <column caption='Country' datatype='string' name='[country]' role='dimension' semantic-role='[Country].[ISO3166_2]' type='nominal' />
+      <column caption='Country Code' datatype='string' name='[country_code]' role='dimension' semantic-role='[Country].[ISO3166_2]' type='nominal' />
+      <column caption='Goal 10 Score' datatype='real' name='[goal_10_score]' role='measure' type='quantitative' />
+      <column caption='Goal 11 Score' datatype='real' name='[goal_11_score]' role='measure' type='quantitative' />
+      <column caption='Goal 12 Score' datatype='real' name='[goal_12_score]' role='measure' type='quantitative' />
+      <column caption='Goal 13 Score' datatype='real' name='[goal_13_score]' role='measure' type='quantitative' />
+      <column caption='Goal 14 Score' datatype='real' name='[goal_14_score]' role='measure' type='quantitative' />
+      <column caption='Goal 15 Score' datatype='real' name='[goal_15_score]' role='measure' type='quantitative' />
+      <column caption='Goal 16 Score' datatype='real' name='[goal_16_score]' role='measure' type='quantitative' />
+      <column caption='Goal 17 Score' datatype='real' name='[goal_17_score]' role='measure' type='quantitative' />
+      <column caption='Goal 1 Score' datatype='real' name='[goal_1_score]' role='measure' type='quantitative' />
+      <column caption='Goal 2 Score' datatype='real' name='[goal_2_score]' role='measure' type='quantitative' />
+      <column caption='Goal 3 Score' datatype='real' name='[goal_3_score]' role='measure' type='quantitative' />
+      <column caption='Goal 4 Score' datatype='real' name='[goal_4_score]' role='measure' type='quantitative' />
+      <column caption='Goal 5 Score' datatype='real' name='[goal_5_score]' role='measure' type='quantitative' />
+      <column caption='Goal 6 Score' datatype='real' name='[goal_6_score]' role='measure' type='quantitative' />
+      <column caption='Goal 7 Score' datatype='real' name='[goal_7_score]' role='measure' type='quantitative' />
+      <column caption='Goal 8 Score' datatype='real' name='[goal_8_score]' role='measure' type='quantitative' />
+      <column caption='Goal 9 Score' datatype='real' name='[goal_9_score]' role='measure' type='quantitative' />
+      <column caption='Overall Score' datatype='real' name='[overall_score]' role='measure' type='quantitative' />
+      <column caption='Region' datatype='string' name='[region]' role='dimension' type='nominal' />
+      <column-instance column='[country]' derivation='None' name='[none:country:nk]' pivot='key' type='nominal' />
+      <layout _.fcp.SchemaViewerObjectModel.false...dim-percentage='0.5' _.fcp.SchemaViewerObjectModel.false...measure-percentage='0.4' dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <style>
+        <style-rule element='mark'>
+          <encoding attr='color' field='[none:country:nk]' palette='cyclic_10_0' type='palette'>
+            <map to='#1ba3c6'>
+              <bucket>&quot;Algeria&quot;</bucket>
+            </map>
+            <map to='#2fbaa9'>
+              <bucket>&quot;Bangladesh&quot;</bucket>
+            </map>
+            <map to='#38a452'>
+              <bucket>&quot;Belarus&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;Afghanistan&quot;</bucket>
+            </map>
+            <map to='#4f7cba'>
+              <bucket>&quot;Botswana&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;Argentina&quot;</bucket>
+            </map>
+            <map to='#76b7b2'>
+              <bucket>&quot;Angola&quot;</bucket>
+            </map>
+            <map to='#9c755f'>
+              <bucket>&quot;Azerbaijan&quot;</bucket>
+            </map>
+            <map to='#a76dc2'>
+              <bucket>&quot;Bosnia and Herzegovina&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;Australia&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;Bahamas, The&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;Bahrain&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;Barbados&quot;</bucket>
+            </map>
+            <map to='#bcbd22'>
+              <bucket>&quot;Belgium&quot;</bucket>
+            </map>
+            <map to='#e74b21'>
+              <bucket>&quot;Benin&quot;</bucket>
+            </map>
+            <map to='#edc948'>
+              <bucket>&quot;Armenia&quot;</bucket>
+            </map>
+            <map to='#f075b0'>
+              <bucket>&quot;Bolivia&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Albania&quot;</bucket>
+            </map>
+            <map to='#f43c63'>
+              <bucket>&quot;Bhutan&quot;</bucket>
+            </map>
+            <map to='#f8a61c'>
+              <bucket>&quot;Belize&quot;</bucket>
+            </map>
+            <map to='#ff9da7'>
+              <bucket>&quot;Austria&quot;</bucket>
+            </map>
+          </encoding>
+        </style-rule>
+      </style>
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;India&quot;' />
+      </semantic-values>
+      <_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+        <objects>
+          <object caption='sustainable_development_report_' id='sustainable!development!report!_3A325F7626AF4B7786E290487B122E74'>
+            <properties context=''>
+              <relation connection='excel-direct.10ez5gb1iyshx81d34oxk0nfjpmc' name='sustainable_development_report_' table='[sustainable_development_report_$]' type='table'>
+                <columns gridOrigin='A1:U167:no:A1:U167:0' header='yes' outcome='6'>
+                  <column datatype='string' name='country_code' ordinal='0' />
+                  <column datatype='string' name='country' ordinal='1' />
+                  <column datatype='string' name='region' ordinal='2' />
+                  <column datatype='real' name='overall_score' ordinal='3' />
+                  <column datatype='real' name='goal_1_score' ordinal='4' />
+                  <column datatype='real' name='goal_2_score' ordinal='5' />
+                  <column datatype='real' name='goal_3_score' ordinal='6' />
+                  <column datatype='real' name='goal_4_score' ordinal='7' />
+                  <column datatype='real' name='goal_5_score' ordinal='8' />
+                  <column datatype='real' name='goal_6_score' ordinal='9' />
+                  <column datatype='real' name='goal_7_score' ordinal='10' />
+                  <column datatype='real' name='goal_8_score' ordinal='11' />
+                  <column datatype='real' name='goal_9_score' ordinal='12' />
+                  <column datatype='real' name='goal_10_score' ordinal='13' />
+                  <column datatype='real' name='goal_11_score' ordinal='14' />
+                  <column datatype='real' name='goal_12_score' ordinal='15' />
+                  <column datatype='real' name='goal_13_score' ordinal='16' />
+                  <column datatype='real' name='goal_14_score' ordinal='17' />
+                  <column datatype='real' name='goal_15_score' ordinal='18' />
+                  <column datatype='real' name='goal_16_score' ordinal='19' />
+                  <column datatype='real' name='goal_17_score' ordinal='20' />
+                </columns>
+              </relation>
+            </properties>
+          </object>
+        </objects>
+      </_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+    </datasource>
+  </datasources>
+  <worksheets>
+    <worksheet name='Sheet 1'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run bold='true' fontalignment='1' fontcolor='#ffffff' fontname='Tableau Bold' fontsize='18'>Goal Score By Country</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='sustainable_development_report_ (sustainable_development_report_2023)' name='federated.1rhooo716yi8j918ib5ol1sjw9nu' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1rhooo716yi8j918ib5ol1sjw9nu'>
+            <column caption='Country' datatype='string' name='[country]' role='dimension' semantic-role='[Country].[ISO3166_2]' type='nominal' />
+            <column caption='Goal 1 Score' datatype='real' name='[goal_1_score]' role='measure' type='quantitative' />
+            <column-instance column='[country]' derivation='None' name='[none:country:nk]' pivot='key' type='nominal' />
+            <column caption='Overall Score' datatype='real' name='[overall_score]' role='measure' type='quantitative' />
+            <column-instance column='[goal_1_score]' derivation='Sum' name='[sum:goal_1_score:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[overall_score]' derivation='Sum' name='[sum:overall_score:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.1rhooo716yi8j918ib5ol1sjw9nu].[none:country:nk]'>
+            <groupfilter count='10' end='top' function='end' units='records' user:ui-marker='end' user:ui-top-by-field='true'>
+              <groupfilter direction='DESC' expression='COUNT([country])' function='order' user:ui-marker='order'>
+                <groupfilter function='except' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate'>
+                  <groupfilter function='level-members' level='[none:country:nk]' />
+                  <groupfilter function='union'>
+                    <groupfilter function='member' level='[none:country:nk]' member='&quot;Afghanistan&quot;' />
+                    <groupfilter function='member' level='[none:country:nk]' member='&quot;Albania&quot;' />
+                    <groupfilter function='member' level='[none:country:nk]' member='&quot;Angola&quot;' />
+                    <groupfilter function='member' level='[none:country:nk]' member='&quot;Argentina&quot;' />
+                    <groupfilter function='member' level='[none:country:nk]' member='&quot;Armenia&quot;' />
+                    <groupfilter function='member' level='[none:country:nk]' member='&quot;Australia&quot;' />
+                    <groupfilter function='member' level='[none:country:nk]' member='&quot;Austria&quot;' />
+                    <groupfilter function='member' level='[none:country:nk]' member='&quot;Azerbaijan&quot;' />
+                    <groupfilter function='member' level='[none:country:nk]' member='&quot;Bahamas, The&quot;' />
+                    <groupfilter function='member' level='[none:country:nk]' member='&quot;Bahrain&quot;' />
+                    <groupfilter function='member' level='[none:country:nk]' member='&quot;Barbados&quot;' />
+                    <groupfilter function='member' level='[none:country:nk]' member='%null%' />
+                  </groupfilter>
+                </groupfilter>
+              </groupfilter>
+            </groupfilter>
+          </filter>
+          <slices>
+            <column>[federated.1rhooo716yi8j918ib5ol1sjw9nu].[none:country:nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <encoding attr='space' class='0' field='[federated.1rhooo716yi8j918ib5ol1sjw9nu].[sum:overall_score:qk]' field-type='quantitative' fold='true' scope='rows' type='space' />
+            <format attr='height' field='[federated.1rhooo716yi8j918ib5ol1sjw9nu].[none:country:nk]' value='52' />
+            <format attr='title' class='0' field='[federated.1rhooo716yi8j918ib5ol1sjw9nu].[sum:goal_1_score:qk]' scope='rows' value='' />
+            <format attr='title' class='0' field='[federated.1rhooo716yi8j918ib5ol1sjw9nu].[sum:overall_score:qk]' scope='rows' value='' />
+          </style-rule>
+          <style-rule element='cell'>
+            <format attr='border-color' value='#ffffff' />
+            <format attr='border-width' value='1' />
+            <format attr='border-style' value='dotted' />
+          </style-rule>
+          <style-rule element='header'>
+            <format attr='border-style' value='solid' />
+            <format attr='border-width' value='4' />
+            <format attr='border-color' value='#ffffff' />
+          </style-rule>
+          <style-rule element='label'>
+            <format attr='color' value='#ffffff' />
+          </style-rule>
+          <style-rule element='pane'>
+            <format attr='border-style' value='solid' />
+            <format attr='border-color' value='#ffffff' />
+            <format attr='border-width' value='1' />
+          </style-rule>
+          <style-rule element='table'>
+            <format attr='background-color' value='#000000' />
+          </style-rule>
+          <style-rule element='worksheet'>
+            <format attr='font-family' value='Tableau Bold' />
+            <format attr='font-size' value='10' />
+            <format attr='font-weight' value='bold' />
+          </style-rule>
+          <style-rule element='title'>
+            <format attr='border-width' value='3' />
+            <format attr='border-style' value='solid' />
+            <format attr='border-color' value='#ffffff' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.1rhooo716yi8j918ib5ol1sjw9nu].[none:country:nk]' />
+            </encodings>
+            <style>
+              <style-rule element='pane'>
+                <format attr='minheight' value='372' />
+                <format attr='maxheight' value='372' />
+                <format attr='minwidth' value='3320' />
+                <format attr='maxwidth' value='3320' />
+                <format attr='aspect' value='0' />
+              </style-rule>
+            </style>
+          </pane>
+          <pane id='1' selection-relaxation-option='selection-relaxation-allow' y-axis-name='[federated.1rhooo716yi8j918ib5ol1sjw9nu].[sum:goal_1_score:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Shape' />
+            <mark-sizing mark-sizing-setting='marks-scaling-off' />
+            <encodings>
+              <color column='[federated.1rhooo716yi8j918ib5ol1sjw9nu].[none:country:nk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='shape' value=':filled/triangle' />
+                <format attr='size' value='2.9502761363983154' />
+              </style-rule>
+            </style>
+          </pane>
+          <pane id='2' selection-relaxation-option='selection-relaxation-allow' y-axis-name='[federated.1rhooo716yi8j918ib5ol1sjw9nu].[sum:overall_score:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Bar' />
+            <mark-sizing mark-sizing-setting='marks-scaling-off' />
+            <encodings>
+              <color column='[federated.1rhooo716yi8j918ib5ol1sjw9nu].[none:country:nk]' />
+              <text column='[federated.1rhooo716yi8j918ib5ol1sjw9nu].[sum:goal_1_score:qk]' />
+              <text column='[federated.1rhooo716yi8j918ib5ol1sjw9nu].[sum:overall_score:qk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='size' value='0.5487293004989624' />
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>([federated.1rhooo716yi8j918ib5ol1sjw9nu].[sum:goal_1_score:qk] + [federated.1rhooo716yi8j918ib5ol1sjw9nu].[sum:overall_score:qk])</rows>
+        <cols>[federated.1rhooo716yi8j918ib5ol1sjw9nu].[none:country:nk]</cols>
+      </table>
+      <simple-id uuid='{C68B56CA-1FAB-434D-A949-483120F9B23D}' />
+    </worksheet>
+  </worksheets>
+  <windows source-height='30'>
+    <window class='worksheet' maximized='true' name='Sheet 1'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card mode='dropdown' param='[federated.1rhooo716yi8j918ib5ol1sjw9nu].[none:country:nk]' type='filter' />
+            <card pane-specification-id='1' param='[federated.1rhooo716yi8j918ib5ol1sjw9nu].[none:country:nk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <zoom type='entire-view' />
+        <highlight>
+          <color-one-way>
+            <field>[federated.1rhooo716yi8j918ib5ol1sjw9nu].[none:country:nk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{5C35C499-F0AF-4325-9168-931EFDEC65B2}' />
+    </window>
+  </windows>
+  <thumbnails>
+    <thumbnail height='192' name='Sheet 1' width='192'>
+      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
+      iFcjCkDEq/l/dfsJhSq8ODkAAAAASUVORK5CYII=
+    </thumbnail>
+  </thumbnails>
+</workbook>

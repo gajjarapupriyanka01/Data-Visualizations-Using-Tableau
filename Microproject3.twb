@@ -1,0 +1,618 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20241.24.0208.0337                               -->
+<workbook original-version='18.1' source-build='2024.1.0 (20241.24.0208.0337)' source-platform='win' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <_.fcp.AnimationOnByDefault.true...AnimationOnByDefault />
+    <MapboxVectorStylesAndLayers />
+    <_.fcp.MarkAnimation.true...MarkAnimation />
+    <_.fcp.ObjectModelEncapsulateLegacy.true...ObjectModelEncapsulateLegacy />
+    <_.fcp.ObjectModelTableType.true...ObjectModelTableType />
+    <_.fcp.SchemaViewerObjectModel.true...SchemaViewerObjectModel />
+    <SheetIdentifierTracking />
+    <WindowsPersistSimpleIdentifiers />
+  </document-format-change-manifest>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <_.fcp.AnimationOnByDefault.false...style>
+    <_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule element='animation'>
+      <_.fcp.AnimationOnByDefault.false...format attr='animation-on' value='ao-on' />
+    </_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule>
+  </_.fcp.AnimationOnByDefault.false...style>
+  <datasources>
+    <datasource caption='Hospital ER' inline='true' name='federated.0gr9s7y0iox89t1f85dz705jmi6b' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='Hospital ER' name='textscan.0f452dt1rvu2ym15swk5910b1ibk'>
+            <connection class='textscan' directory='C:/Users/Prasad/Downloads' filename='Hospital ER.csv' password='' server='' />
+          </named-connection>
+        </named-connections>
+        <_.fcp.ObjectModelEncapsulateLegacy.false...relation connection='textscan.0f452dt1rvu2ym15swk5910b1ibk' name='Hospital ER.csv' table='[Hospital ER#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='en_IN' separator=','>
+            <column datatype='datetime' name='date' ordinal='0' />
+            <column datatype='string' name='patient_id' ordinal='1' />
+            <column datatype='string' name='patient_gender' ordinal='2' />
+            <column datatype='integer' name='patient_age' ordinal='3' />
+            <column datatype='integer' name='patient_sat_score' ordinal='4' />
+            <column datatype='string' name='patient_first_inital' ordinal='5' />
+            <column datatype='string' name='patient_last_name' ordinal='6' />
+            <column datatype='string' name='patient_race' ordinal='7' />
+            <column datatype='boolean' name='patient_admin_flag' ordinal='8' />
+            <column datatype='integer' name='patient_waittime' ordinal='9' />
+            <column datatype='string' name='department_referral' ordinal='10' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.false...relation>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...relation connection='textscan.0f452dt1rvu2ym15swk5910b1ibk' name='Hospital ER.csv' table='[Hospital ER#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='en_IN' separator=','>
+            <column datatype='datetime' name='date' ordinal='0' />
+            <column datatype='string' name='patient_id' ordinal='1' />
+            <column datatype='string' name='patient_gender' ordinal='2' />
+            <column datatype='integer' name='patient_age' ordinal='3' />
+            <column datatype='integer' name='patient_sat_score' ordinal='4' />
+            <column datatype='string' name='patient_first_inital' ordinal='5' />
+            <column datatype='string' name='patient_last_name' ordinal='6' />
+            <column datatype='string' name='patient_race' ordinal='7' />
+            <column datatype='boolean' name='patient_admin_flag' ordinal='8' />
+            <column datatype='integer' name='patient_waittime' ordinal='9' />
+            <column datatype='string' name='department_referral' ordinal='10' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.true...relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[Hospital ER.csv]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='character-set'>&quot;UTF-8&quot;</attribute>
+              <attribute datatype='string' name='collation'>&quot;en_GB&quot;</attribute>
+              <attribute datatype='string' name='currency'>&quot;₹&quot;</attribute>
+              <attribute datatype='string' name='field-delimiter'>&quot;,&quot;</attribute>
+              <attribute datatype='string' name='header-row'>&quot;true&quot;</attribute>
+              <attribute datatype='string' name='locale'>&quot;en_IN&quot;</attribute>
+              <attribute datatype='string' name='single-char'>&quot;&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>date</remote-name>
+            <remote-type>135</remote-type>
+            <local-name>[date]</local-name>
+            <parent-name>[Hospital ER.csv]</parent-name>
+            <remote-alias>date</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>datetime</local-type>
+            <aggregation>Year</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Hospital ER.csv_CF84190526F64F718FFF572BC0990B78]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>patient_id</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[patient_id]</local-name>
+            <parent-name>[Hospital ER.csv]</parent-name>
+            <remote-alias>patient_id</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Hospital ER.csv_CF84190526F64F718FFF572BC0990B78]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>patient_gender</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[patient_gender]</local-name>
+            <parent-name>[Hospital ER.csv]</parent-name>
+            <remote-alias>patient_gender</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Hospital ER.csv_CF84190526F64F718FFF572BC0990B78]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>patient_age</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[patient_age]</local-name>
+            <parent-name>[Hospital ER.csv]</parent-name>
+            <remote-alias>patient_age</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Hospital ER.csv_CF84190526F64F718FFF572BC0990B78]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>patient_sat_score</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[patient_sat_score]</local-name>
+            <parent-name>[Hospital ER.csv]</parent-name>
+            <remote-alias>patient_sat_score</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Hospital ER.csv_CF84190526F64F718FFF572BC0990B78]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>patient_first_inital</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[patient_first_inital]</local-name>
+            <parent-name>[Hospital ER.csv]</parent-name>
+            <remote-alias>patient_first_inital</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Hospital ER.csv_CF84190526F64F718FFF572BC0990B78]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>patient_last_name</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[patient_last_name]</local-name>
+            <parent-name>[Hospital ER.csv]</parent-name>
+            <remote-alias>patient_last_name</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Hospital ER.csv_CF84190526F64F718FFF572BC0990B78]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>patient_race</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[patient_race]</local-name>
+            <parent-name>[Hospital ER.csv]</parent-name>
+            <remote-alias>patient_race</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Hospital ER.csv_CF84190526F64F718FFF572BC0990B78]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>patient_admin_flag</remote-name>
+            <remote-type>11</remote-type>
+            <local-name>[patient_admin_flag]</local-name>
+            <parent-name>[Hospital ER.csv]</parent-name>
+            <remote-alias>patient_admin_flag</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>boolean</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Hospital ER.csv_CF84190526F64F718FFF572BC0990B78]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>patient_waittime</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[patient_waittime]</local-name>
+            <parent-name>[Hospital ER.csv]</parent-name>
+            <remote-alias>patient_waittime</remote-alias>
+            <ordinal>9</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Hospital ER.csv_CF84190526F64F718FFF572BC0990B78]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>department_referral</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[department_referral]</local-name>
+            <parent-name>[Hospital ER.csv]</parent-name>
+            <remote-alias>department_referral</remote-alias>
+            <ordinal>10</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Hospital ER.csv_CF84190526F64F718FFF572BC0990B78]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column caption='Age Groupings' datatype='string' name='[Calculation_858217208168865792]' role='dimension' type='nominal'>
+        <calculation class='tableau' formula='IF [patient_age] &gt;= 0 and [patient_age]&lt;=18 then &apos;0-18&apos;&#13;&#10;ELSEIF [patient_age]&gt;= 19 and [patient_age] &lt;= 65 then &apos;19-65&apos;&#13;&#10;ELSEIF [patient_age] &gt;= 66 then &apos;66+&apos;&#13;&#10;END' />
+      </column>
+      <_.fcp.ObjectModelTableType.true...column caption='Hospital ER.csv' datatype='table' name='[__tableau_internal_object_id__].[Hospital ER.csv_CF84190526F64F718FFF572BC0990B78]' role='measure' type='quantitative' />
+      <column caption='Date' datatype='datetime' name='[date]' role='dimension' type='ordinal' />
+      <column caption='Department Referral' datatype='string' name='[department_referral]' role='dimension' type='nominal' />
+      <column caption='Patient Admin Flag' datatype='boolean' hidden='true' name='[patient_admin_flag]' role='dimension' type='nominal' />
+      <column caption='Patient Age' datatype='integer' name='[patient_age]' role='measure' type='quantitative' />
+      <column caption='Patient First Inital' datatype='string' name='[patient_first_inital]' role='dimension' type='nominal' />
+      <column caption='Patient Gender' datatype='string' name='[patient_gender]' role='dimension' type='nominal' />
+      <column caption='Patient Id' datatype='string' name='[patient_id]' role='dimension' type='nominal' />
+      <column caption='Patient Last Name' datatype='string' name='[patient_last_name]' role='dimension' type='nominal' />
+      <column caption='Patient Race' datatype='string' name='[patient_race]' role='dimension' type='nominal' />
+      <column caption='Patient Sat Score' datatype='integer' name='[patient_sat_score]' role='measure' type='quantitative' />
+      <column caption='Patient Waittime' datatype='integer' name='[patient_waittime]' role='measure' type='quantitative' />
+      <column-instance column='[Calculation_858217208168865792]' derivation='None' name='[none:Calculation_858217208168865792:nk]' pivot='key' type='nominal' />
+      <layout _.fcp.SchemaViewerObjectModel.false...dim-percentage='0.5' _.fcp.SchemaViewerObjectModel.false...measure-percentage='0.4' dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <style>
+        <style-rule element='mark'>
+          <encoding attr='color' field='[none:Calculation_858217208168865792:nk]' palette='purple_pink_gray_10_0' type='palette'>
+            <map to='#b173a0'>
+              <bucket>&quot;0-18&quot;</bucket>
+            </map>
+            <map to='#c799bc'>
+              <bucket>&quot;19-65&quot;</bucket>
+            </map>
+            <map to='#f498b6'>
+              <bucket>&quot;66+&quot;</bucket>
+            </map>
+          </encoding>
+        </style-rule>
+      </style>
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;India&quot;' />
+      </semantic-values>
+      <_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+        <objects>
+          <object caption='Hospital ER.csv' id='Hospital ER.csv_CF84190526F64F718FFF572BC0990B78'>
+            <properties context=''>
+              <relation connection='textscan.0f452dt1rvu2ym15swk5910b1ibk' name='Hospital ER.csv' table='[Hospital ER#csv]' type='table'>
+                <columns character-set='UTF-8' header='yes' locale='en_IN' separator=','>
+                  <column datatype='datetime' name='date' ordinal='0' />
+                  <column datatype='string' name='patient_id' ordinal='1' />
+                  <column datatype='string' name='patient_gender' ordinal='2' />
+                  <column datatype='integer' name='patient_age' ordinal='3' />
+                  <column datatype='integer' name='patient_sat_score' ordinal='4' />
+                  <column datatype='string' name='patient_first_inital' ordinal='5' />
+                  <column datatype='string' name='patient_last_name' ordinal='6' />
+                  <column datatype='string' name='patient_race' ordinal='7' />
+                  <column datatype='boolean' name='patient_admin_flag' ordinal='8' />
+                  <column datatype='integer' name='patient_waittime' ordinal='9' />
+                  <column datatype='string' name='department_referral' ordinal='10' />
+                </columns>
+              </relation>
+            </properties>
+          </object>
+        </objects>
+      </_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+    </datasource>
+  </datasources>
+  <mapsources>
+    <mapsource name='Tableau' />
+  </mapsources>
+  <worksheets>
+    <worksheet name='# of Patients By Age'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run fontalignment='1' fontcolor='#d320ac'>Number of Patients by Age Visiting Emergency Department</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Hospital ER' name='federated.0gr9s7y0iox89t1f85dz705jmi6b' />
+          </datasources>
+          <mapsources>
+            <mapsource name='Tableau' />
+          </mapsources>
+          <datasource-dependencies datasource='federated.0gr9s7y0iox89t1f85dz705jmi6b'>
+            <column caption='Age Groupings' datatype='string' name='[Calculation_858217208168865792]' role='dimension' type='nominal'>
+              <calculation class='tableau' formula='IF [patient_age] &gt;= 0 and [patient_age]&lt;=18 then &apos;0-18&apos;&#13;&#10;ELSEIF [patient_age]&gt;= 19 and [patient_age] &lt;= 65 then &apos;19-65&apos;&#13;&#10;ELSEIF [patient_age] &gt;= 66 then &apos;66+&apos;&#13;&#10;END' />
+            </column>
+            <column-instance column='[patient_id]' derivation='Count' name='[cnt:patient_id:qk]' pivot='key' type='quantitative' />
+            <column caption='Date' datatype='datetime' name='[date]' role='dimension' type='ordinal' />
+            <column-instance column='[Calculation_858217208168865792]' derivation='None' name='[none:Calculation_858217208168865792:nk]' pivot='key' type='nominal' />
+            <column caption='Patient Age' datatype='integer' name='[patient_age]' role='measure' type='quantitative' />
+            <column caption='Patient Id' datatype='string' name='[patient_id]' role='dimension' type='nominal' />
+            <column-instance column='[date]' derivation='Month-Trunc' name='[tmn:date:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <format attr='title' class='0' field='[federated.0gr9s7y0iox89t1f85dz705jmi6b].[tmn:date:qk]' scope='cols' value='' />
+            <format attr='title' class='0' field='[federated.0gr9s7y0iox89t1f85dz705jmi6b].[cnt:patient_id:qk]' scope='rows' value='' />
+          </style-rule>
+          <style-rule element='cell'>
+            <format attr='border-style' value='solid' />
+            <format attr='border-color' value='#ffffff' />
+            <format attr='border-width' value='3' />
+          </style-rule>
+          <style-rule element='header'>
+            <format attr='border-style' value='solid' />
+            <format attr='border-color' value='#ffffff' />
+            <format attr='border-width' value='3' />
+          </style-rule>
+          <style-rule element='label'>
+            <format attr='text-format' field='[federated.0gr9s7y0iox89t1f85dz705jmi6b].[tmn:date:qk]' value='*mmm-yy' />
+            <format attr='font-size' field='[federated.0gr9s7y0iox89t1f85dz705jmi6b].[tmn:date:qk]' value='10' />
+            <format attr='font-family' field='[federated.0gr9s7y0iox89t1f85dz705jmi6b].[tmn:date:qk]' value='Tableau Bold' />
+            <format attr='font-weight' field='[federated.0gr9s7y0iox89t1f85dz705jmi6b].[tmn:date:qk]' value='bold' />
+            <format attr='font-family' field='[federated.0gr9s7y0iox89t1f85dz705jmi6b].[cnt:patient_id:qk]' value='Tableau Bold' />
+            <format attr='font-size' field='[federated.0gr9s7y0iox89t1f85dz705jmi6b].[cnt:patient_id:qk]' value='10' />
+            <format attr='font-weight' field='[federated.0gr9s7y0iox89t1f85dz705jmi6b].[cnt:patient_id:qk]' value='bold' />
+            <format attr='color' field='[federated.0gr9s7y0iox89t1f85dz705jmi6b].[tmn:date:qk]' value='#000000' />
+            <format attr='color' field='[federated.0gr9s7y0iox89t1f85dz705jmi6b].[cnt:patient_id:qk]' value='#000000' />
+          </style-rule>
+          <style-rule element='pane'>
+            <format attr='border-style' value='solid' />
+            <format attr='border-color' value='#ffffff' />
+            <format attr='border-width' value='3' />
+          </style-rule>
+          <style-rule element='table'>
+            <format attr='background-color' value='#f9e9e0' />
+          </style-rule>
+          <style-rule element='title'>
+            <format attr='font-weight' value='bold' />
+            <format attr='font-family' value='Tableau Bold' />
+            <format attr='border-style' value='solid' />
+            <format attr='border-color' value='#ffffff' />
+          </style-rule>
+          <style-rule element='map-layer'>
+            <format attr='enabled' id='b01002_001e' value='false' />
+            <format attr='enabled' id='b01002_002e' value='false' />
+            <format attr='enabled' id='b01002_003e' value='false' />
+            <format attr='enabled' id='dp02_0001e' value='false' />
+            <format attr='enabled' id='dp02_0015e' value='false' />
+            <format attr='enabled' id='dp03_0027e_plus_dp03_0029e' value='false' />
+            <format attr='enabled' id='dp03_0028e' value='false' />
+            <format attr='enabled' id='dp03_0030e_plus_dp03_0031e' value='false' />
+            <format attr='enabled' id='dp03_0062e' value='false' />
+            <format attr='enabled' id='dp03_0088e' value='false' />
+            <format attr='enabled' id='dp04_0001e' value='false' />
+            <format attr='enabled' id='dp04_0046e' value='false' />
+            <format attr='enabled' id='dp04_0047e' value='false' />
+            <format attr='enabled' id='dp04_0089e' value='false' />
+            <format attr='enabled' id='dp05_0001e' value='false' />
+            <format attr='enabled' id='dp05_0002e_div_dp05_0003e' value='false' />
+            <format attr='enabled' id='dp05_0032e' value='false' />
+            <format attr='enabled' id='dp05_0033e' value='false' />
+            <format attr='enabled' id='dp05_0034e' value='false' />
+            <format attr='enabled' id='dp05_0039e' value='false' />
+            <format attr='enabled' id='dp05_0047e' value='false' />
+            <format attr='enabled' id='dp05_0053e' value='false' />
+            <format attr='enabled' id='dp05_0066e' value='false' />
+            <format attr='enabled' id='dp05_0077e' value='false' />
+          </style-rule>
+          <style-rule element='map'>
+            <format attr='washout' value='0' />
+            <format attr='map-style' value='dark' />
+          </style-rule>
+          <style-rule element='map-data-layer'>
+            <format attr='palette' value='tableau-map-blue-green-light' />
+            <format attr='geo-area-type' value='State' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Area' />
+            <encodings>
+              <color column='[federated.0gr9s7y0iox89t1f85dz705jmi6b].[none:Calculation_858217208168865792:nk]' />
+              <text column='[federated.0gr9s7y0iox89t1f85dz705jmi6b].[none:Calculation_858217208168865792:nk]' />
+              <lod column='[federated.0gr9s7y0iox89t1f85dz705jmi6b].[none:Calculation_858217208168865792:nk]' />
+            </encodings>
+            <style>
+              <style-rule element='datalabel'>
+                <format attr='color-mode' value='auto' />
+                <format attr='font-size' value='10' />
+                <format attr='font-weight' value='bold' />
+                <format attr='font-family' value='Tableau Bold' />
+              </style-rule>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.0gr9s7y0iox89t1f85dz705jmi6b].[cnt:patient_id:qk]</rows>
+        <cols>[federated.0gr9s7y0iox89t1f85dz705jmi6b].[tmn:date:qk]</cols>
+      </table>
+      <simple-id uuid='{C40C6324-77CA-4C23-BF58-3F8433698FBE}' />
+    </worksheet>
+  </worksheets>
+  <windows source-height='30'>
+    <window class='worksheet' maximized='true' name='# of Patients By Age'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.0gr9s7y0iox89t1f85dz705jmi6b].[none:Calculation_858217208168865792:nk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.0gr9s7y0iox89t1f85dz705jmi6b].[none:Calculation_858217208168865792:nk]</field>
+            <field>[federated.0gr9s7y0iox89t1f85dz705jmi6b].[none:patient_id:nk]</field>
+            <field>[federated.0gr9s7y0iox89t1f85dz705jmi6b].[yr:date:ok]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{08B958D8-91EA-4255-943A-94525CFD48ED}' />
+    </window>
+  </windows>
+  <thumbnails>
+    <thumbnail height='192' name='# of Patients By Age' width='192'>
+      iVBORw0KGgoAAAANSUhEUgAAAMAAAADACAYAAABS3GwHAAAACXBIWXMAAA7DAAAOwwHHb6hk
+      AAAdrElEQVR4nO2deZgcVbmH33OqqvfZZ5JJQjZ2Ra/AFUVxQdkum+BFMAq4oSigGBRBghEQ
+      WZQ1iAIioEgERb1shkWiYUkEDWsSyEICWWbfuqf37qo694+eHpJMltl7Zuq8z9PP9FRX1fmq
+      6vudraq+TyilFBqNRzEBlGPj5rOltkWjGXVMADefwenuKLUtGs2oY279jxGuQJi+Ae3AcRwM
+      wxhWozSa0WIbAQjTj3JsUG7/9+ALoZwcOPZw26bRjDjm9gucVAxcp987EL4QbjqO0mMIzThE
+      ltoAjaaUaAFoPI0WgMbTaAFoPI0WgMbTaAFoPI0WgMbTaAFoPI0WgMbTaAFoPI0WgGZcolzF
+      cLzKogWgGVcoVxFvS7DhxU20vjX0R/j7PAyn0YxFXFeR7EjSvKaNVFcaIQWJ9iTlkyMEywOD
+      3m8fAax+fQXRTIbZ+7yHoB1l7ZYuDnjv/hj5OCvXbmTGXvtSWzb4AkuNchWJjhTdLXHq9qrB
+      F7RKbZJmFzh5h+7WBK3r2klFM5h+A8MqvH+ihCLZmRpeAcyddx177lPP58/6Bn+6eh4d0s/s
+      T57G1M3/5LmGJFblvtx57QWExuE7MOlYhoZVzSTakwghiDXHmX3IdIIV41fQExUn79C1JUbr
+      Wx3kUjkMy8AKbOuuQgpa1rZTUV+GFRhcRdZHAMJv8+/XVnNU8xo2hg7i4WtP4LgLfsumiOKX
+      P7uaSy6bT2fSJlAdAcAAXMOHO4B3aEYTBWS6MzSv2EJ3SwLDbyL9hbfebBvWLdvE9A/OoKy+
+      AlFaUzVAPmsT3dRJ65oWHNvF8BnIgA9F4Vpuj5t3aVjTyR4HzxjU9esjgK9+5cusWvJXVra4
+      +Ftf57bf29TO3Isp7a/w2wf/TEc6RMRvIO1M7zbSySGcsfdCTLo7Q8vaNqKN3Ugp8fkl4G5z
+      JhWKTS9sYOoBk6nbs6ZktnqdfDpP2ztddG7swsk7SFNiWWK3bydKA6IbO6iZGqGsLjzgcvsI
+      QCXaqT/oOOacdDRt76ngsRfe5uffP5Vg/FMsfPQ5fjTvQir8Y7euVEqRTeRoXtNGV0MMw5QY
+      loEQO7ZZCIE0JQ0rW8il80zZfxLSGLnJseIsRuv6DiI1IWpmVg26+R5U+Urh5Ar96lBlEH/E
+      t9NzMxq2ZBM5Wt9qp2tLDADZc70GgmFKGlY2s8/HZg14W6GUUk4mgdPdgVkxCTveMbBXIqum
+      QqKj5K9EKqXIJnO0rmunc3MUISWG2X9HVkrh2i5lkyLMOGgapm/4BzmZRJamN1uJNXZjWAau
+      4yJNSe3sampnjbwQcuk87Rs66djYhZ13kIagenol9fvVjboIM/EsLWvbiDXHATGga7Uj7JzD
+      lP3rmLxv3YC2G/cCUEqRz9i0rG2jc1MUhEAaYtC1mmu7+Mv8zP7QdKyAOeTaUSmF67i0re+k
+      9a12gG1amMLvCmkKamdWU7dnNYZv5y3WYMrPZ+zeikG5CmlKhBAopVCuQghB/X511MyqGtnW
+      r6fGb1rdSrw1AaLQAg/HsSqlcPIu7zlib/zh/kc2GbcCUEqRS+Zo3dBJ58YuhBTDdvFcVyGl
+      YPaHphOuDg3eRlcRa47TuKqZfMbebfPs5B2EFNTtWU3trGqsIUzRFp2tbUMHnZtjoNROyy+2
+      fr6QxZT3TqZichlCDl+3SClFujtD67oOoo0xpCmRcviFplxFqDLInofO6Lf9JROAk3dwHYVy
+      XYp3tF2nMEB1t7rNrRzVe9u793fHJRVN09XQDT012nCjXIVCMePAaVROLR/w9unuDI2rWoi3
+      JTFM2e8LUnRGIQXVMyqZvG8dln9g9yuzqRwtawqDfxSIfraIxfFBpDbMtPfXD2l+vUgmnqV5
+      bRuxpjhCFKYuR2rMUWwFZh48jao9Kvq1TUkEoJRi7bMbSHVlQCkQgsLUjABBb7OslCr8VJzg
+      Ej2rAoZp9DahI0XRIaa8dzKT9qrZrRMrpbCzNq1vddC2oQPDNAZdkxYFrxxF7ezqwk27kLXT
+      4y32q9vWd9C5JYaUYlDOppQCVehT18yqZMr+kwY8PijaUhzcSkOOqONvXzYK3nPk3pi+3Vcc
+      JXsUwrVVnxsbYw0hBKbfpOnNVnKpHNPeV7/TbpZyFV1bYjS92YKdc/p18ndXtmEaYELHpi46
+      NnVRObWC+v3qtunjbj+gFEJgDnAmZPtyEWAFTLo2x4g1xqnbs5q6vWsK9uyCrWd1oo3dALuc
+      gRsJhBA4jkvTm61M/8DU3a4/tj1wjGBYks7NUbLJHLM+uMc2zq2UItWVpmFlM6loGsMyBjwV
+      t9vyTQOlFNHGbro2R6mYWk79fnUoV9G8puD4hikLNe0wOpthFcpteauD9ne62OMDUyifFOlT
+      CfQ6/voOoltihZZ5lGr8HdptSjo3RamcVkFZ7a7vDZSsC7T6H+tx8v0vZyzgOoWB4qxDphOI
+      +MmlcjSvbadzY1ehphvGgePu7HDtwtjJsOSIztwUKfSvHcLVIaa+dzKhqiBA79RzcbwxEuOx
+      waBchRW02PcTs3d5fnQLMACkIcmnbdY99zY1M6vo2NiFchTmAAepw2HHaDj91gghMH0mme4s
+      by19h8ppFQgpiDbEUIohTT2PBEIKMvEs7e90MWmvnd/h1wIYIEIWBue9g1xz7Fz00UBIgSEN
+      Yk1jq8bfEabPoOnNFsonRwhE/DtcZ+xaP4bpHaB6GGnIMe38RYQQNK5qQbk7fnts7B+BRjME
+      hCw89l545KIvWgCaCU1h7GKw5fWmHU66aAFoJjxCCBy7cG9g+xfptQA0nkAago6NXaSi6W2X
+      l8gejWZUEaLwsOSW15q2aQW0ADSeQUhBOpahbX0hnIpSSgtA4y1Mv0nz2nZyqRz5jK1vhGk8
+      iFJsWdEMSt8J1ngQaUi6m+MopbQANN6k+PyWHgNoPI0WwCiglGLJS8s447LzWPjEXwsvoyvF
+      5pZGLr39WmKJbpa8vIzTf3weN/zhDvK2XWqTPYMWwCigUCxatpirvnUJL6x6mbWbNrCpuYFX
+      1q6krasDx3Vpj3YxubqOaDyG2mEMNM1IoAVQAl5es4LnX/83n/n40cyonwbAO02bOOKQj5HL
+      58jmxl6UvYmKHgSPAgLBcR89gktvv4ZjP3IEc446CaUUN93/a15Zs5LL7ryeYw/9FAuf/CsH
+      7/9+Aj4drHe00K9EajxNny6Qcm3a2zvJ2S65TIr2zii2q3DsHB0dnWS002omEH26QP9edBen
+      zV3Irx/5Hc/eMp/n3+nmxLMupH7L0/xm8Qr2+9DxLJj3VQJ69KCZAPQRwH0vpPnK8QeRj63n
+      9cw+PH73CZwy7wFq/VkW/uY25l9+BR3JM5lSNbT8AEoauKI0sx2u7WJn8ljh0kVG9jp2Jl+I
+      3BDqfxzPkaCPADZteJVFr7xMU+0+mN2bWbLsZcK1k6iIrWPpS8tJ5CwClhxSfgClFMJ1kLuJ
+      /T6cKKVwbJd82sawTCI1ZcTburECxpACSWkGhlKKXCqPFfQjDUmmO42QhTuzQ40QPRj6CODh
+      P9zN4gf/xOTDjib6ShUPPPMWP/7OeZR1rWLBwic58xvnUjXO+j9O3iGbzOML+ameXoPpL0R9
+      9od8dDV0kXfyoxoe3Mvk0zb+cJCyukIA3khNhHR3mlQ0RS6Zwx/2jerL9hN2FmjrGt8K+Cif
+      VL7DsONKKeJtcTLxNP7wzmNvTjSUq0YtkBf0hGlP2wTKQ4Srwzu8DnbGJtYSw87lsQIm5jCG
+      id8ZE/I+gJ13yKdtfCE/NTMqdxm4SghB+aRyTJ9Jd2uMQMQ36kGnRhPHdsgl8yAlKEUg4htx
+      ISilyKVtQpVhQpWhHTq1EAIraFE7qxbHdkh2JEnFUkgDfCEfcoRsnDAC6K3xUza+cMHxB5Jo
+      IlgRxApYdDV0YfrUiGSIKRXFJBy5VB7DMqmcVo0v6COTyNDd2o0vOHL970Lmnjzh6shOnX97
+      DNOgfHI5kdoI2WSWeFsc5Tj4QlZvco/hYtwLoBgTPp/ucfyZu67xd4YQAitQqIE6t3SSTeZ2
+      GY58PFCM55lPO1hBH9V71GBulfUmWB7EH/LTuaUTOzv8x1sImpsnXNN/598aaUiC5UGC5UGy
+      ySzJziSZeA7TJ3vHcUNl3AqgGLs/l7YJlAUH7fjbIw1JzfQaEp0JUl1JAmXjb6q0mKcgl3YI
+      lAWp7ukG7ug4pCmpmVFDoiNBKpocti5RIStMlvJJFQQrgkM+h/6wH1/Ih5MvdI/SsRSGT+IL
+      Dk20404AylXkszZOzsUfCRRyag3zNKaQgrLaMiy/RbQpij9slWSKbqAU84E5tiJYFqRyWrhf
+      IRyFFJTVleEL+4k1dmH45ICz0mxvRyaeo3xSBaHKwaeY6mNnT4DeiikVlNeXk4qmSbTHkQZY
+      fnNQs0fjRgCu45JN5BBSEqwIEZoWGnbH355AWYAaXw3RhkJyubE6LnBdRT6Vx3UhVBUmXBka
+      lDP4Qz5qZ9cRa46RjmcLrcEgMsxkE3nKJ1cOS4qlnSGEIFwVIlgeIB1Lk46lcJI5rKA1oOs0
+      pgWgXIWdd8ilbHxBX2HwFhrdLonlL44LusgkcmNmqrSY4TGXygPy3UHmELsv0pBUTq0kFU0T
+      b+smELH6PStWHPCWT64gUDY6T7RKQxKuDhOqCmFnbZKdSVKxDKZfYlrGbm0fcwIozljkMzbK
+      UQQrw1TUB4eccmgoCCmonl5FsiNJMpogEB5aP7novEoBPW+HvfsdULy7jJ6/PdGNC5nUCmmM
+      DJ9JWV0FgfLAsIqyWLv6wz6ijVEgv9uUsUXnr5hciX8nochHkuIkRuXUShzbIR1Nk+5O4Trv
+      3lPYEWNGAIWBm0M+W8ivVT6pAl/YNyLpNAeDEIJIbQQraBFtjGIFC1OsynULztzj0Fs7cjFh
+      W3F7pEDKnoRxPWldhSEwpATRs6yY3G6rJHe96xYdUBRE0N/sj4PF9JlUz6gm3honE08RKPPv
+      sDzlKjKJHJVTq/CHR9/5t8cwDSK1EcLVYXLpXKFViGYw/QaW3+ytvMZEVIjC3do8CIk/7Kdi
+      Sriktf3u8If91MysIdGeAMDwW70ZW4QhkUVnlQIh5ZjLnDJQpJRU1FfgC/nobu3G8hvb1Kau
+      q8jGx47zb42QAn/Yjz/sx847pKMp0t1pQGEFDJy8WzoBOLZDKprBCvgom1SBP+wfN3dgTZ9J
+      5dTKUpsxqgTLg/iCPmJNUbKpHL6gBQqyxZq/BN2egWBaBmV1ZYRrwuRTeZKdCayAv3QCCFeV
+      Eaoq109ijiMMy6BqejWJjiTJznjPgHns1fy7QkqJP+LvFWzJBGAFLFxHRz8YbwghKKst5NwS
+      Uozp7mp/GN/Wa0rGRHl8fHx0ujWaEUILQONptAA0nkYLQONptAA0nkYLQONptAA0nkYLQONp
+      tAA0nkYLQONptAA0nkYLQONp+ghg6TP/4KG/LyORdWjZuJo/P7aYWNYhHW3moUcX8XZbohR2
+      ajQjQp+nQf++7D+89p8XSAYuZdFN1zBt32k89UYTU5qWEauo596/vchvf3E55db4fctJoynS
+      RwD1so1lopzpgRix2g/y+4tO4NgL7iEZCXLz+d9h3mXz6U47RIJDyw/gSgN3oBtpNMNMHwHk
+      qg9gdvliXmqSVHYs56JrGpj1/g8xtXEZV960gE67loqgMeT8ANJ1et4g12hKRx8BHDB7Bnvv
+      ez6fPvQgug+sZ+mqBo749Cew0kfy9NJX+a8PH0aZ7v5oJgglyw/QsKJdvxKpKTl6GlTjabQA
+      NJ5GC0DjabQANJ5GC0DjabQANJ5GC0DjabQANJ5GC0DjabQANJ5GC0DjabQANJ5GC0DjabQA
+      NJ5GC0DjabQANJ5GC0DjabQANJ5GC0DjabQANJ5GC0DjabQANJ5GC0DjabQANJ5GC0DjabQA
+      NJ6mjwBuv+VGvv2j61jbEufZvy3knB9cwaubutjw2rN858J5PPyvNeiYzpqJQh8BTDvok+wp
+      N7No6VJuvOc5Tv7YTH76i7u54Vf3c/hRh7PwrtvoTGsJaCYGfaJDN/77Md4OfIDLDtuDxY9N
+      4+Mf+gA3P/xHun0BPnzQgfzt4UfI2grXDAA6P4BmfNNHALc++hJ15T7uP/B9fCD4Fsd87QpO
+      Pvsipmx+mi9+7Vu896MnURvW+QE0E4M+4dHbt2zAyecJhCP4cEikc5SXlyFcm1giRSgcwW8Z
+      7+5Ah0fXjGP6tACVFRVb5QewqPIXujpIi6rKilE0TaMZefQ0qMbTaAFoPI0WgMbTaAFoPI0W
+      gMbTaAFoPI0WgMbTaAFoPI0WgMbTaAFoPI0WgMbTaAFoPI0WgMbTaAFoPI0WgMbTaAFoPI0W
+      gMbTaAFoPI0WgMbTaAFoPI0WgMbTaAFoPI0WgMbTaAFoPI0WgMbTaAFoPE0fATz2wB2c/fP7
+      UMrml1d+j0OOPJn7n1/N4j/dxkeOPJ4f3/U4tg7pqZkg9IkN+kZCkW5P4iY38MSaEE/c+UO+
+      dO191Lrd3Pe7X/OTK66m7fNHM7ni3fDoSpq40tl+V7tESYnS4dE1JaZPC3D2SR/F7zrYrgAn
+      RzKVRpomUjmkMmkcF6QQCNdFFB1YuYP4KFCM/sdVuLaLk7ZRdgntKOlHbfUptS2l/fRpAb78
+      3RtpbWnl2kcP4PRPlPOleXdzyZXXUNO6lO9dcAknfvV71IYlQr1b4wvlIlX/a3OlFEIpBKrf
+      2wwWpRTKUbh5B2m7mI5LxAC/JUnGHdJCovwm0mcgpBhxe0qJchVOzkHmbAIobAW2kCifgbAk
+      QgqEmNjnYHv65Aew4x1bhUfvxw7GYH4A5SrcvIvK2RiOS8gAvynwWxLT3LbRc1xFJusQzyky
+      QiKDJtKUE8YReiuAdB6/6xK2BCG/xDAkSqme43fJOIq0K3AMiREonAMv0KcFGC38eZtUd64w
+      FpACJQXCEAhDgqDggMW/u0D1NOPKVbg5B2k7+FyXkE8SDEkMWTjEne3HkIJw0CQUUDguxFM5
+      Eja4ARPhM5DG+HMEpVTv+TByNmEJZUED0zC3OQ9CCExDEAlJwj3ZenJ5l1Q6S9oB25DgM5CW
+      0a9rMdZQO8tAtNXikgmgyoKqChNXgesoHNfFdhV2XuEosBU4ChwhcBFgCDBkQSQ9XRU37yJy
+      DpbrEjQFAUvgCxhIOfDDKjgDVJVZVChFNuuSSNqkEVDsIo1xB1Cq0NUj6xBQhdo+WGYi+9G1
+      Kx6b32fg9xlUKoXtKNJZm0w2T0YJlGUgfcawtA5qq/FH0VF7KzMFAlXIoNW73lZ/CysjhQCl
+      EIieHVEQqgIhQPSsK3p+FggKmyh66tfSCaBgmOjxa4G13W9KqYJQFbgKHEfhuA75nMJ2Cycn
+      aAkCYQMph7fLIoUgGDAI+CWuC6msTawrh+03kQFzTPWVe2v7jI2Zd6gwBeGelm8oNgohsEyB
+      ZUrKlMJVkM25ZNI2KQccQyIsYytHVoitHdTtcb6Ckcie770fUXBg2VOWFPQ6Ze93IRCyuD5I
+      KRBC0ntUPevv+AC2+bPD44MSC2BXCFHQNaIwVWUao+9wQggMA8pCJpGgIpd3SaayJF2BYxkI
+      2VPpbO1oO3I68e7+tl82FFTeReYdgsol4pf4Q0Nz+p1RrKhCAYNQwKBKKfK2wnGcgoMWnVUU
+      a9me7+Og2zRmBTDWEELg9xn4LEmFC3nHfXcm0S024YB4d4ax+L2I27Owt3Ubij2AzxQEQwaG
+      Yex2/eFECIHPEvRptschWgADpNgqjLbTaUaG8TfFodEMI1oAGk+jBaDxNFoAGk+jBaDxNFoA
+      Gk+jBaDxNFoAGk+jBaDxNFoAGk+jBaDxNFoAGk+jBaDxNFoAGk+jBaDxNFoAGk+jBaDxNP0U
+      gKKzYS233n4XL29oG4VwVhrN6NA/Adhprr7qBlI4XHn1dcRyWgKaiUH/BJBP0yQifPW0U6kN
+      pkikBxYIV6MZq/RPAP4yPlwrOO+Hl5IK7El1RL9Lr5kY9M+TpY9vXTyfw9a8w4y99yOkAyJo
+      Jgh9guMKyz+gHdiOgyEHMZmkcwNoxgDbtABOMgoDdGYZqSGf6ELZ+QFtpwwfwskNaBu9/djZ
+      fqj7UIaFcAbmM8NevmtvKwBlD3xn0jCQro0aoCGukMihXEAnN6Togrr8IZYPiCHY4Ao5pO1h
+      aOfAFQJh50oXGW6o6h9qxEldfqnLH1rrM1QbCsevSigAVdqpVF1+qcsv7RiwWL5+FELjKdqa
+      GklvlZloxASg0pv5wv+eyf/95+1dr6ccXl+6iCtu/zM4GX634Kcc+8VzWPJG45BtuOe261nZ
+      nNlN+S6vPPsoP/31oyg7xV03/YRjTz+X59a0DKnsFxfdx2fOmk9HP3oa6VgrN181j+WNeZrX
+      LeeMM89k7vX3kcoPvpaMt73Nhd/5Fid97fssf7ujd3k+FWXBL+5m67Oy5qV/cvnNC8nkstx7
+      61UcO+dslrzZPOiyweVPt1zJ4Seexvdv+D3d2V0fR1fjOi6+6kaau7OseP4RTjr1i/z8/iUM
+      pY1a8uCtHH7iKXzjmt9ts/zeBdezJj4KAlj9/NPUHPxBnn/mXzSveYajjv0chx59Kk//6wW+
+      9K3z+fq8BWxsaqSttZlFTyzilQ2N5Do38sgbKS48/ePc/fuHGGoKsc0b1/P26//kR796lCfv
+      vZU/L1/FnJNO4JNHHc3tf3+D5qYGOjobefiRJ1n5ThOptk0sXpdh7pyPcNc9D2EPslzlZnhq
+      6Wr+e1qG51e3c9P8S3ijqYnzLr+B1557iMOOPI6jPvtNVrZE2dzSwcvPP8k/l79ONKNYsuhh
+      DjrpLIx1z/KvdzoHawGP338PdZ/8Eld+5WPceteDPPb7mzj0yOOZf+0NXHvrLzj/Z3+ktbmB
+      aLKTvzz4GCvWbyIVb+bp1zv4wVlHcusdfxz08QM0Nnfz/SuuZkr7i/zlmRf59lfP5GMnn83L
+      69dz7pe/wEe+djmd7W20dHTzt8cfY/mKdWTzOR559B+cfs75rFh0N+s7Bm9Be2Mbx8w5h4vP
+      OJqH7rmOQ488gZv/70UgzQ++/gVO/eEvaGlrHSkBOCx66p+8/MIynljyLN2ZHAce9UV+8oWD
+      eeG1jSRUBdd+7zQW/OynLG2EH55/LhG/ia96OsftF+a6Ox6gMzUE/SuF49ik0xmU65DKZEkm
+      E+Qdl7Jp/8WNF3+R1a+s4Lpr5vPvLQYXXfBNygMGodrpHL53kJvufJCuvDvoh/7SXU0sWfoc
+      //jXqzy15AVymRTZbI5EKs0zi5fy3Wtu431VSV557jG+d8sDHHb8mZz8kX0B+MQxx7Ni0X08
+      ufztbXILDPAEkMnkqaqupLamBtfO8fiSV7n3wb9w6dzzOOXY47j+gs/yy+vn87flLVx48QXU
+      l1sEIpM5/P3V3HjbH4jZQ+yjC0koXEZtZYimNS+xMhXh6IPqee25xXTvfQL/uH0ei/98F7f8
+      YQlzzjqXQ2fVgTA57thP8tff3sGrm2IMLYtClr8u/A2//OMiHl3yCscdfzStmzfiEODqBQsQ
+      7e/w4L23j8wg2Em2sSo/iz/cfjYP3nEzK5pTPLXwFpZOm8lNVxxDWzRNbe0Ubrz5VyTa13PK
+      md9meVOWS2bWYa3bQMyJcMkZJzDorKV2nHnnn89q9uSc/Wew4MZLWB2p5qxDPkMoHMayfFTU
+      TuGKi+4mFV3H50/4LiuTWS6rLyO//m263XIuPf24QZ+chtUvc8jn5nL2MXtx4x2PUrtHGXPn
+      Xkr5jP358BEHMnfeBeSyLt8+7gzO/JzioV9fybUPPE/o2a9zxdkns2FTAwf/z8kcMrNqkBZI
+      jjnlFL590Y/4bSbADy+/Ct8axZdPO4UfXHkzVmINFy94hNuuvxtoY86nTufFrjhOuJK69o10
+      pP1c9OXPDsk5fCrO+Wd9iQMO/jg3zDuJjf9ZymPLWrnyxM9TueQqPn3OOp6/8zJOlYKfXfJ1
+      HnhiJYs32vzof6ewfksrx8/5BntWDT4Dh+Wv4vvzv8mcQ6fz4J2tXHf/43z88+dSOSnCRV87
+      i70Pn8M3556x7Z3gQRVUNwM72rLLNKktby7mhifj/HzuyYM9ngnDqqUP8bN7n6LTmcyffnMZ
+      oVIb5HFGRQB2JkFbwmFKbcVg7ZwwpOOdbGhop7Z+GpMrw6U2x/P8P9h2c5GLZ/1GAAAAAElF
+      TkSuQmCC
+    </thumbnail>
+  </thumbnails>
+</workbook>
